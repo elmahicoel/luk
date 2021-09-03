@@ -1,0 +1,586 @@
+@import url('href="https://bootswatch.com/bower_components/bootstrap/dist/css/bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
+/*general css */
+
+
+.bk-color{
+    background-color: #00304A;
+}
+.azzur-color{
+    color:#47DFFF;
+}
+.azzur-bk-color{
+    background-color: #47DFFF;
+    
+}
+body{
+    font-family: Raleway;
+}
+.white-color{
+    color:#F4F9FB;
+}
+.white-bg-color{
+    background-color: #F4F9FB;
+}
+.text-center{
+    text-align: center;
+}
+.pure-white-bg-color{
+   background-color: #FFFFFF;
+}
+.pure-white-color{
+    color: #FFFFFF;
+}
+
+.line-height-small{
+    line-height: 0.7;
+}
+.child-one-empty{
+    width: 45%;
+}
+.child-one{
+    width: 45%;
+}
+.primary-color{
+    color: #00304A;
+}
+.child-big-70{
+    width: 96%;
+}
+.page-pic{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+@media (max-width: 575.98px) { 
+    .btn-font{
+        font-size: 9px;
+    }
+    .title-size{
+        font-size: 40px;
+    }
+    .xs-m-t-5{
+        margin-top: 5px;
+    }
+    .big-title-font{
+        font-size: 50px;
+    }
+    .subtitle-font-size{
+        font-size: 20px;
+    }
+    .btn-padding{
+        padding: 10px 30px;
+    }
+    .margin-title{
+        margin-top: 50px;
+    }
+    .margin-bottom-big{
+        margin-bottom: 50px;
+    }
+    .margin-top-subtitle{
+        margin-top: 30px;
+    }
+    .xs-justify-content-center{
+        justify-content: center;
+    }
+    .xs-text-center{
+        text-align: center;
+    }
+    .contact-text-center{
+        text-align: center;
+    }
+    .logo-size{
+        width: 100px;
+        height: 100%;
+    }
+    .child-one-empty{
+        display: none;
+    }
+    .child-one{
+        width: 100%;
+    }
+    .font-size-small{
+        font-size: 11px;
+    }
+    .btn-log-padding{
+        padding: 8px 40px;
+    }
+    .radius-15{
+        border-radius:15px;
+    }
+    .form-padding{
+        padding: 15px 35px 15px 45px;
+    }
+    .font-size-14{
+        font-size: 13px;
+    }
+    .title-size-46{
+        font-size: 30px;
+    }
+    .mobile-display{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .icons-size{
+        width:140px;
+    }
+    .big-title-font-2{
+        font-size: 60px;
+    }
+    .border-p-e-35 {
+        padding-left: 25px;
+    }
+    .margin-top-30{
+        margin-top: 20px;
+        
+    }
+    .margin-bottom-60{
+        margin-bottom: 30px;
+    }
+    .margin-top-40{
+        margin-top: 30px;
+    }
+    .margin-bottom-40{
+        margin-bottom: 30px;
+    }
+    .margin-top-60{
+        margin-top: 45px;
+    }
+    .margin-top-70{
+        margin-top: 55px;
+    }
+    .margin-top-90{
+        margin-top: 60px;
+    }
+    .padding-top-50{
+        padding-top: 50px;
+    }
+    .margin-top-10{
+        margin-top: 0px;
+    }
+    .contact-font-size{
+        font-size: 14px;
+    }
+    .font-size-47{
+        font-size: 26px
+    }
+    .hourglass-size{
+        width: 55px;
+        height: auto;
+    }
+    
+    
+    
+    
+    
+    
+ }
+
+@media (min-width: 576px) and (max-width: 767px){
+    .btn-font{
+        font-size: 9px;
+    }
+    .title-size{
+        font-size: 40px;
+    }
+    .xs-m-t-5{
+        margin-top: 5px;
+    }
+    .big-title-font{
+        font-size: 50px;
+    }
+    .subtitle-font-size{
+        font-size: 20px;
+    }
+    .btn-padding{
+        padding: 10px 30px;
+    }
+    .margin-title{
+        margin-top: 50px;
+    }
+    .margin-bottom-big{
+        margin-bottom: 50px;
+    }
+    .margin-top-subtitle{
+        margin-top: 30px;
+    }
+    .xs-justify-content-center{
+        justify-content: center;
+    }
+    .xs-text-center{
+        text-align: center;
+    }
+    .logo-size{
+        width: 100px;
+        height: 100%;
+    }
+    .child-one-empty{
+        display: none;
+    }
+    .child-one{
+        width: 100%;
+    }
+    .font-size-small{
+        font-size: 11px;
+    }
+    .btn-log-padding{
+        padding: 8px 45px
+    }
+    .radius-15{
+        border-radius:15px;
+    }
+    .form-padding{
+        padding: 20px 40px 15px 50px;
+    }
+    .icons-size{
+        width:150px;
+    }
+    .mobile-display{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .big-title-font-2{
+        font-size: 70px;
+    }
+    .font-size-47{
+        font-size: 33px
+    }
+    .border-p-e-35 {
+        padding-left: 25px;
+    }
+    .margin-top-40{
+        margin-top: 35px;
+    }
+    .margin-bottom-40{
+        margin-bottom: 35px;
+    }
+    .margin-top-60{
+        margin-top: 50px;
+    }
+    .margin-top-70{
+        margin-top: 60px;
+    }
+    .margin-top-90{
+        margin-top: 70px;
+    }
+    .margin-bottom-60{
+        margin-bottom: 40px;
+    }
+    .margin-top-30{
+        margin-top: 30px;
+    }
+    .padding-top-50{
+        padding-top: 55px;
+    }
+    .margin-top-10{
+        margin-top: 5px;
+    }
+    .title-size-46{
+        font-size: 35px;
+    }
+    .contact-text-center{
+        text-align: center;
+    }
+    .hourglass-size{
+        width: 60px;
+        height: auto;
+    }
+    .font-size-14{
+        font-size: 13px;
+    }
+    
+    
+    
+    
+}
+    
+@media (min-width: 767.98px){
+    .title-size{
+        font-size: 60px;
+    }
+    .big-title-font{
+        font-size: 80px;
+    }
+    .subtitle-font-size{
+        font-size: 30px;
+    }
+    .btn-font{
+        font-size: 10px;
+    }
+    .btn-padding{
+        padding: 12px 45px;
+    }
+    .margin-title{
+        margin-top: 40px;
+    }
+    .margin-bottom-big{
+        margin-bottom: 80px;
+    }
+    .margin-top-subtitle{
+        margin-top: 30px;
+    }
+    .border-left-1{
+        border-left: 5px solid #18C7EC;    
+        height: 90px; 
+    }
+    .border-p-e-120{
+        padding-left: 120px;
+        
+    }
+    .font-size-small{
+        font-size: 12px;
+    }
+    .btn-log-padding{
+        padding: 8px 50px
+    }
+    .margin-top-90{
+        margin-top: 80px;
+    }
+    .radius-15{
+        border-radius:15px;
+    }
+    .form-padding{
+        padding: 25px 45px 25px 55px;
+    }
+    .icons-size{
+        width:160px;
+    }
+    
+    .title-size-46{
+        font-size: 35px
+    }
+    .big-title-font-2{
+        font-size: 80px;
+    }
+    .font-size-47{
+        font-size: 37px
+    }
+    .border-p-e-35 {
+        padding-left: 25px;
+    }
+    .margin-top-40{
+        margin-top: 40px;
+    }
+    .margin-bottom-40{
+        margin-bottom: 40px;
+    }
+    .margin-top-60{
+        margin-top: 55px;
+    }
+    .margin-top-70{
+        margin-top: 65px;
+    }
+    .margin-top-90{
+        margin-top: 80px;
+    }
+    .margin-bottom-60{
+        margin-bottom: 50px;
+    }
+    .margin-top-30{
+        margin-top: 30px;
+    }
+    .padding-top-50{
+        padding-top: 50px;
+    }
+    .margin-top-10{
+        margin-top: 10px;
+    }
+    
+    .contact-text-center{
+        align-items: center;
+    }
+    .hourglass-size{
+        width: 60px;
+        height: auto;
+    }
+    .font-size-14{
+        font-size: 14px;
+    }
+    
+    
+    
+}
+    
+@media (min-width: 991.98px) {
+    .title-size{
+        font-size: 60px;
+    }
+    .big-title-font{
+        font-size: 80px;
+    }
+    .big-title-font-2{
+        font-size: 74px;
+    }
+    .subtitle-font-size{
+        font-size: 30px;
+    }
+    .btn-font{
+        font-size: 10px;
+    }
+    .btn-padding{
+        padding: 12px 45px;
+    }
+    .margin-title{
+        margin-top: 40px;
+    }
+    .margin-title-60{
+        margin-top: 60px;
+
+    }
+    .margin-bottom-big{
+        margin-bottom: 80px;
+    }
+    .margin-top-subtitle{
+        margin-top: 30px;
+    }
+    .border-left-1{
+        border-left: 5px solid #18C7EC;    
+        height: 90px; 
+    }
+    .border-p-e-120{
+        padding-left: 120px;
+        
+    }
+    .font-size-small{
+        font-size: 12px;
+    }
+    .btn-log-padding{
+        padding: 8px 50px
+    }
+    .margin-top-90{
+        margin-top: 90px;
+    }
+    .text-size-box {
+        width: 480px;
+    }
+    .text-child-small{
+        width: 200px;
+    }
+    .hourglass-size{
+        width: 60px;
+        height: auto;
+    }
+    .margin-top-70{
+        margin-top: 70px;
+    }
+    .mini-logo{
+        width: 50px;
+        height: auto;
+    }
+    .font-size-medium{
+        font-size: 15px;
+    }
+    .mini-text-box {
+        width: 120px
+    }
+    .m-e-small{
+        margin-right: 30px;
+    }
+    .big-display{
+        display: flex;
+        flex-direction: row;
+    }
+    .child-40{
+        width : 35%;
+    }
+    .ipad-pic-size{
+        width: 900px;
+        height:auto;
+        
+    }
+    .n{
+        margin-top: -160px;
+        
+        margin-right: -110px;
+    }
+    .margin-top-20{
+        margin-top: 20px;
+    }
+    .border-p-e-35 {
+        padding-left: 25px;
+    }
+    .big-title-font-2{
+        font-size: 100px;
+    }
+    .title-size-46{
+        font-size: 46px;
+    }
+    .child-10{
+        width: 10%;
+
+    }
+
+    
+    
+    .btn-outline-primary{
+        border:1px solid white;
+        border-radius: 12px;
+        padding: 20px 60px;
+    }
+    .child-30{
+        width: 30%;
+    }
+    .child-55{
+        width: 55%;
+        
+
+    }
+    .radius-15{
+        border-radius:15px;
+    }
+    .form-padding{
+        padding: 40px 50px 10px 60px;
+    }
+    .font-size-14{
+        font-size: 14px;
+    }
+    .icons-size{
+        width:170px;
+    }
+    .font-size-47{
+        font-size: 47px
+    }
+    .border-bottom-half{
+        width:40%;
+        
+        border: 3px solid #18C7EC;
+    }
+    .margin-top-30{
+        margin-top: 30px;
+        
+    }
+    .margin-bottom-60{
+        margin-bottom: 60px;
+    }
+    .margin-top-40{
+        margin-top: 40px;
+    }
+    .margin-bottom-40{
+        margin-bottom: 40px;
+    }
+    .margin-top-60{
+        margin-top: 60px;
+    }
+    .padding-top-50{
+        padding-top: 50px;
+    }
+    .margin-top-10{
+        margin-top: 10px;
+    }
+    
+    
+    
+    
+}
+@media (min-width: 1199.98px) {}
+  
